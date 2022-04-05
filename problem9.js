@@ -13,9 +13,10 @@ const isPalindrome = (num) => {
     }
     if (numString==reverse){
         console.log(`${num} is a palindrome`)
-        return
+        return true
     }
     console.log(`${num} is NOT a palindrome`)
+    return false
 }
 
 //Test
